@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Office Hub - Home Office Gadgets and Reviews</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Gadget Office Hub</h1>
+                <p>Your go-to site for home office gadgets, reviews, and productivity tips!</p>
+                <a href="#newsletter" class="cta-btn">Subscribe Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Best Gadgets Section -->
+    <section id="best-gadgets">
+        <div class="container">
+            <h2>Best Gadgets for Productivity</h2>
+            <div class="gadgets-grid">
+                <div class="gadget-item">
+                    <img src="images/ergonomic-chair.jpg" alt="Ergonomic Chair">
+                    <h3>Ergonomic Office Chair</h3>
+                    <p>Improve your posture and productivity with the best ergonomic chairs.</p>
+                    <a href="#" class="affiliate-link">Check Price on Amazon</a>
+                </div>
+                <div class="gadget-item">
+                    <img src="images/standing-desk.jpg" alt="Standing Desk">
+                    <h3>Standing Desk</h3>
+                    <p>Stay active while working with adjustable standing desks for your home office.</p>
+                    <a href="#" class="affiliate-link">Check Price on Amazon</a>
+                </div>
+                <div class="gadget-item">
+                    <img src="images/desk-lamp.jpg" alt="Desk Lamp">
+                    <h3>LED Desk Lamp</h3>
+                    <p>Perfect lighting for all-day work without eye strain.</p>
+                    <a href="#" class="affiliate-link">Check Price on Amazon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Articles Section -->
+    <section id="articles">
+        <div class="container">
+            <h2>Featured Articles</h2>
+            <div class="article-grid">
+                <article class="article-item">
+                    <h3>Top 10 Home Office Chairs for Productivity</h3>
+                    <p>Discover the best ergonomic chairs that provide comfort and enhance productivity.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="article-item">
+                    <h3>Logitech MX Master 3 Review for Office Use</h3>
+                    <p>An in-depth review of the Logitech MX Master 3 mouse for productivity enthusiasts.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="article-item">
+                    <h3>5 Gadgets to Improve Your Work-from-Home Experience</h3>
+                    <p>Explore gadgets that can significantly enhance your work-from-home setup.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Signup Section -->
+    <section id="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates on home office gadgets and productivity tips!</p>
+            <form action="#" method="post" class="signup-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gadget Office Hub. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .cta-btn {
+            background: #ffc107;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        .nav-menu {
+            list-style-type: none;
+            text-align: center;
+        }
+        .nav-menu li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .nav-menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .gadgets-grid, .article-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gadget-item, .article-item {
+            flex-basis: calc(33.333% - 20px);
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .gadget-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .affiliate-link {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .signup-form {
+            margin-top: 20px;
+        }
+        .signup-form input {
+            padding: 10px;
+            width: 60%;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .signup-form button {
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</body>
+
+</html>
